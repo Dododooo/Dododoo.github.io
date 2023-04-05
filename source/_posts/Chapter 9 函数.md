@@ -1,5 +1,11 @@
-# Chapter 9 函数
-
+---
+title: Chapter 9 函数
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 函数是完成特定任务的独立程序代码单元
 
 1. 函数可以做一些动作

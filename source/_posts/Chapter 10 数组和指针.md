@@ -1,4 +1,11 @@
-# Chapter 10 数组和指针
+---
+title: Chapter 10 数组和指针
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 
 `float candy[10]`
 

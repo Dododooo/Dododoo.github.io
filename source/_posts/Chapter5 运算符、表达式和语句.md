@@ -1,5 +1,11 @@
-# Chapter5 运算符、表达式和语句
-
+---
+title: Chapter5 运算符、表达式和语句
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 
 
 #### while()

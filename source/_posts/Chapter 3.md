@@ -1,5 +1,11 @@
-# Chapter 3 数据与C
-
+---
+title: Chapter 3 数据与C
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 ```c
 #include <stdio.h>
 int main(void)

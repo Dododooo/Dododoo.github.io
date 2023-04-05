@@ -1,5 +1,11 @@
-# 报错记录笔记
-
+---
+title: C报错记录笔记
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 ## 1./Users/heyushu/Desktop/Codes/C_Primmier_Plus/Chapter_3/transform_asc.c
 
 ```c

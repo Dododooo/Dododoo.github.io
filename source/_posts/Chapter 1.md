@@ -1,5 +1,11 @@
-# Chapter 1 初识C语言
-
+---
+title: Chapter 1 初识C语言
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 
 
 ## 1.8 编程机制

@@ -1,5 +1,11 @@
-# Chapter8 字符输入输出和输出验证
-
+---
+title: Chapter8 字符输入输出和输出验证
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 所有系统都通用的标准I/O函数
 
 ## 8.1 单字符I/O：getchar()putchar()

@@ -1,5 +1,11 @@
-# Chapter 12 存储类别 链接和内存管理
-
+---
+title: hapter 12 存储类别 链接和内存管理
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 ## 12.1 存储类别
 
 每个数据都储存在内存中，每一个值都占用一定的物理内存，C语言把这种内存称为**对象**

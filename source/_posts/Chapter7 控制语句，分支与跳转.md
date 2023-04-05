@@ -1,7 +1,11 @@
-
-
-# Chapter7 控制语句，分支与跳转
-
+---
+title: Chapter7 控制语句，分支与跳转
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 ## 7.1 if语句
 
 条件判断，如果条件成立，则执行if中的代码

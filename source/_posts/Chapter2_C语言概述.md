@@ -1,5 +1,11 @@
-# Chapter2 C语言概述
-
+---
+title: Chapter2 C语言概述
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 ## 2.2.1 快速概要
 
 ```c

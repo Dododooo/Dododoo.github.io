@@ -1,5 +1,11 @@
-# Chapter 11字符串和字符串函数
-
+---
+title: Chapter 11字符串和字符串函数
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 字符串是以空字符(\n)结尾的char类型数组
 
 puts()只显示字符串，且自动在显示的字符串末尾加上换行符

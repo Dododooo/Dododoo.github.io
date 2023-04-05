@@ -1,5 +1,11 @@
-# Chapter 4 字符串和格式化输入输出
-
+---
+title: Chapter 4 字符串和格式化输入输出
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 ## 4.1 前导程序
 
 ```c

@@ -1,5 +1,11 @@
-# Chapter 6 C控制语句:循环
-
+---
+title: Chapter 6 C控制语句:循环
+date: 2023/4/5 23:17:25  # 文章发表时间
+tags:
+- C_learning
+categories: C
+#thumbnail: https://xxxxxxxxxx.png # 略缩图
+---
 `==`用来判断左右两值是否相等，若相等，则该表达式返回值为1
 
 ```c
