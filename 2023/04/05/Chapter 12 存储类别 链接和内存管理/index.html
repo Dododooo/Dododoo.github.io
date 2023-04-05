@@ -1,0 +1,361 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/chouzhu.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">臭臭按钮</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >hapter 12 存储类别 链接和内存管理</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h2 id="12-1-存储类别"><a href="#12-1-存储类别" class="headerlink" title="12.1 存储类别"></a>12.1 存储类别</h2><p>每个数据都储存在内存中，每一个值都占用一定的物理内存，C语言把这种内存称为<strong>对象</strong></p>
+<p>对象可以存储一个或多个值，C语言不是面向对象编程的语言，是面向过程的编程语言</p>
+<p><code>int entity=3;</code></p>
+<p>该声明创建了一个标识符，标识符用来制定特定对象的内容</p>
+<p><code>int *pt=&amp;entity</code></p>
+<p>制定对象的表达式被称为左值</p>
+<p>*pt不是标识符，因为它不是一个名称，但他确实制定了一个对象</p>
+<p>*pt即是表达式又是左值</p>
+<p>如果是对象，有对应的内存空间</p>
+<p>可以用存储期storage duration来描述对象，标识符identifier用来访问对象，用作用域scope和链接linkage描述标识符</p>
+<h3 id="12-1-1-作用域"><a href="#12-1-1-作用域" class="headerlink" title="12.1.1 作用域"></a>12.1.1 作用域</h3><p>C变量的作用域可以是块作用域，函数作用域，函数原型作用域，文件作用域</p>
+<p>在内层块中声明的变量，作用域仅局限于声明所在的块</p>
+<p>for循环块也可以这样写</p>
+<p>for(int i&#x3D;0;i&lt;num;i++)</p>
+<p>函数作用域仅用于goto语句的标签</p>
+<p>函数原型作用域用于函数原型中的形参名，声明时原型中的形参变量名并不重要，因为它们的作用域仅限于声明语句本身</p>
+<p>变量定义在函数外面，就具有文件作用域，也被称为全局变量</p>
+<p>C预处理会把#include中的文件都替换到include指令</p>
+<p>，编译器源代码文件和所有的头文件都看成是一个单独文件被称为翻译单元</p>
+<h3 id="12-1-2-链接"><a href="#12-1-2-链接" class="headerlink" title="12.1.2 链接"></a>12.1.2 链接</h3><p>C的变量有三种链接属性：外部链接 内部链接或无链接</p>
+<p>具有块作用域 函数作用域或函数原型作用域的变量都是无链接变量，意味着这些变量属于定义他们的块，函数或原型私有</p>
+<p>具有文件作用域的变量可以是外部链接或内部链接，外部链接变量可以在多文件程序中使用</p>
+<p>内部链接变量只能在一个翻译单元中使用</p>
+<p>外部链接变量可以在多个翻译单元中使用</p>
+<p>如何知道文件作用域变量是内部链接还是外部链接，可以查看外部定义中是否使用了存储类别说明符static,</p>
+<p><code>static int dodgets=3;</code></p>
+<p>是内部链接</p>
+<p>dodgets属于该文件私有</p>
+<h3 id="12-1-3-存储期"><a href="#12-1-3-存储期" class="headerlink" title="12.1.3 存储期"></a>12.1.3 存储期</h3><p>C对象有四种存储期</p>
+<p>静态存储期 在程序执行期间一直存在，文件作用域变量具有静态存储期</p>
+<p>线程存储期用于并发程序设计，从声明时到县城结束时一直存在，用_Thread_local 声明对象时，每个线程都获得该变量的私有备份</p>
+<p>块存储期的变量有自动存储期，程序进入定义变量的这些变量的块时，为这些变量分配内存，退出这个块时，释放为这个变量分配的内存</p>
+<p>块作用域变量也有可以静态存储期，声明在块中的变量时前面添加 static</p>
+<p>![截屏2023-04-05 12.18.30](&#x2F;Users&#x2F;heyushu&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;截屏2023-04-05 12.18.30.png)</p>
+<h3 id="12-1-4-自动变量"><a href="#12-1-4-自动变量" class="headerlink" title="12.1.4 自动变量"></a>12.1.4 自动变量</h3><p>声明在块或函数头内的任何变量都属于自动存储类别，为了更明显的表示意图，可以使用关键字<strong>auto</strong></p>
+<p>int main(void)</p>
+<p>{</p>
+<p>​		auto int n&#x3D;0;</p>
+<p>}</p>
+<p>auto是存储类别说明符，在C++中auto则完全不同</p>
+<p>内层块声明的同名变量，会隐藏外层块的定义；</p>
+<h3 id="12-1-5-寄存器变量"><a href="#12-1-5-寄存器变量" class="headerlink" title="12.1.5 寄存器变量"></a>12.1.5 寄存器变量</h3><p>寄存器传输访问速度更快，但存储量更小</p>
+<p><code>register int quick;</code></p>
+<p>^声明寄存器变量</p>
+<p>不可以取地址</p>
+<p>有可能编译器不会把声明register的变量存储到寄存器中</p>
+<p>在函数头中使用register,便可请求形参是寄存器变量:</p>
+<p><code>void macho(register int n)</code></p>
+<h3 id="12-1-6块作用域的静态变量"><a href="#12-1-6块作用域的静态变量" class="headerlink" title="12.1.6块作用域的静态变量"></a>12.1.6块作用域的静态变量</h3><p>在块中使用static声明变量</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   <span class="type">static</span> <span class="type">int</span> i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>假设在块中的static i变量反复循环声明，该值不会再被赋值和分配内存；</p>
+<h3 id="12-1-7外部链接的静态变量"><a href="#12-1-7外部链接的静态变量" class="headerlink" title="12.1.7外部链接的静态变量"></a>12.1.7外部链接的静态变量</h3><p>可以用extern关键字声明，</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">extern</span> <span class="type">int</span> a;</span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">extern</span> <span class="type">int</span> a;<span class="comment">//可以直接用不用写extern;,最好写</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>外部变量，在函数中或块中，要么直接使用，可读性好一点的话就使用extern 声明</p>
+<p>不能用extern创建外部定义，只能用它来引用现有的外部定义</p>
+<h3 id="12-1-8-内部链接的静态变量"><a href="#12-1-8-内部链接的静态变量" class="headerlink" title="12.1.8 内部链接的静态变量"></a>12.1.8 内部链接的静态变量</h3><p>static int svil;本文件可见</p>
+<h3 id="12-1-10-存储类别说明符"><a href="#12-1-10-存储类别说明符" class="headerlink" title="12.1.10 存储类别说明符"></a>12.1.10 存储类别说明符</h3><blockquote>
+<p> 卡在了多个文件编译，等待解决</p>
+</blockquote>
+<p>^已经解决</p>
+<p><code>gcc ./parta.c ./partb.c -o ./part</code></p>
+<h3 id="12-1-11-存储类别和函数"><a href="#12-1-11-存储类别和函数" class="headerlink" title="12.1.11 存储类别和函数"></a>12.1.11 存储类别和函数</h3><p>函数也有存储类别，外部函数，静态函数，(内联函数)</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">double</span> <span class="title function_">gamma</span><span class="params">(<span class="type">double</span>)</span>;<span class="comment">//默认为外部函数</span></span><br><span class="line"><span class="type">static</span> <span class="type">double</span> <span class="title function_">beta</span><span class="params">(<span class="type">int</span> ,<span class="type">int</span>)</span>;<span class="comment">//静态函数 只在文件内有效</span></span><br><span class="line"><span class="keyword">extern</span> <span class="type">double</span> <span class="title function_">delta</span><span class="params">(<span class="type">double</span>,<span class="type">int</span>)</span>;<span class="comment">//外部函数</span></span><br></pre></td></tr></table></figure>
+
+<p>不要随意使用外部变量，</p>
+<p>可以使用const数据进行外部变量声明保护</p>
+<blockquote>
+<p>保护性程序设计的黄金法则是：“按需知道”原则，尽量在函数内部解决该函数的问题，只共享需要共享的变量</p>
+</blockquote>
+<h2 id="12-2随机数函数和静态变量"><a href="#12-2随机数函数和静态变量" class="headerlink" title="12.2随机数函数和静态变量"></a>12.2随机数函数和静态变量</h2><h4 id="rand"><a href="#rand" class="headerlink" title="rand()"></a>rand()</h4><p>伪随机数生成器，可预测</p>
+<h2 id="12-4-动态分配内存-malloc-和free"><a href="#12-4-动态分配内存-malloc-和free" class="headerlink" title="12.4 动态分配内存 malloc()和free()"></a>12.4 动态分配内存 malloc()和free()</h2><h4 id="malloc"><a href="#malloc" class="headerlink" title="malloc()"></a>malloc()</h4><p>接受一个所需的内存字节数</p>
+<p>并分配该字节数的动态内存</p>
+<p>返回动态分配内存块的首字节地址，即指向void的指针，通用指针</p>
+<p>如果分配内存失败 则返回NULL空指针</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">double</span> * pd;</span><br><span class="line">pd=(<span class="type">double</span> *)<span class="built_in">malloc</span>(<span class="number">30</span>*<span class="keyword">sizeof</span>(<span class="type">double</span>));</span><br></pre></td></tr></table></figure>
+
+<p>以上代码pd指向了动态分配了30xdouble类型大小的字节内存的首地址</p>
+<p><strong>要进行强制类型转换</strong></p>
+<p>相当于创建了大小为30的数组</p>
+<p>且为动态数组</p>
+<p>可以在程序运行时选择数组大小和分配内存</p>
+<p>与free()共同使用</p>
+<h4 id="free"><a href="#free" class="headerlink" title="free()"></a>free()</h4><p>接受一个由malloc()生成的内存空间的首地址</p>
+<p>如果内存分配失败 可以使用exit()结束程序</p>
+<h4 id="记得要使用free-释放掉内存"><a href="#记得要使用free-释放掉内存" class="headerlink" title="记得要使用free()释放掉内存"></a>记得要使用free()释放掉内存</h4><h4 id="calloc"><a href="#calloc" class="headerlink" title="calloc()"></a>calloc()</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">long</span> * newmen;</span><br><span class="line">newmem=(<span class="type">long</span>*)<span class="built_in">calloc</span>(<span class="number">100</span>,<span class="keyword">sizeof</span>(<span class="type">long</span>));</span><br></pre></td></tr></table></figure>
+
+<p>类似malloc，不同的是calloc()接受两个无符号整数作为参数，第一个表示单元数量， 第二个表示参数单元大小。</p>
+<p>另外一个特点是，他会把块中所有位设置为0</p>
+<h3 id="12-4-3-动态内存分配和变长数组"><a href="#12-4-3-动态内存分配和变长数组" class="headerlink" title="12.4.3 动态内存分配和变长数组"></a>12.4.3 动态内存分配和变长数组</h3><h3 id="12-4-4-存储类别和动态内存分配"><a href="#12-4-4-存储类别和动态内存分配" class="headerlink" title="12.4.4 存储类别和动态内存分配"></a>12.4.4 存储类别和动态内存分配</h3><p>理想化内存模型:</p>
+<p>一部分共具有外部链接，内部链接和无链接的静态变量使用</p>
+<p>一部分供自动变量使用</p>
+<p>一部分供动态内存分配</p>
+<p>静态存储类别的内存在编译时确定，程序运行前一直存在</p>
+<p>自动存储类别的变量在变量顶以时存在，离开块时销毁</p>
+<p>动态内存可能会比使用栈内存慢，但节省内存，按需分配</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://example.com/2023/04/05/Chapter%2012%20%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB%20%E9%93%BE%E6%8E%A5%E5%92%8C%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2023/04/05/Chapter%2012%20%E5%AD%98%E5%82%A8%E7%B1%BB%E5%88%AB%20%E9%93%BE%E6%8E%A5%E5%92%8C%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
