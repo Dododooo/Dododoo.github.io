@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/chouzhu.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">臭臭按钮</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/C/">C</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Chapter5 运算符、表达式和语句</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h4 id="while"><a href="#while" class="headerlink" title="while()"></a>while()</h4><p><code>while()</code>语句内部的条件成立，则执行下方语句块的内容</p>
+<p>一定要有跳出循环的能力，否则会进入死循环</p>
+<h2 id="5-2-基本运算符"><a href="#5-2-基本运算符" class="headerlink" title="5.2 基本运算符"></a>5.2 基本运算符</h2><h4 id="赋值运算符-lvalue-x3D-rvalue"><a href="#赋值运算符-lvalue-x3D-rvalue" class="headerlink" title="赋值运算符 lvalue &#x3D; rvalue"></a>赋值运算符 lvalue &#x3D; rvalue</h4><p>赋值表达式的目的是<strong>把右边的值存储到左边的内存位置</strong>上，用于存储值的数据存储区域统称为数据对象</p>
+<p>对象指的是实际的数据存储，而左值是用于标识或定位存储位置的标签</p>
+<p>&#x3D;左侧的项一定是一个变量名，且会引用这个对象的内存地址</p>
+<h4 id="加-x2F-减法运算符"><a href="#加-x2F-减法运算符" class="headerlink" title="加&#x2F;减法运算符"></a>加&#x2F;减法运算符</h4><p>3+24</p>
+<p>27</p>
+<p>想加&#x2F;减的值可以是变量也可以是常</p>
+<p>减号也可以改变值的代数符号(一元运算符)</p>
+<h4 id="除法运算符"><a href="#除法运算符" class="headerlink" title="除法运算符"></a>除法运算符</h4><p>four &#x3D; 12.0&#x2F;3.0</p>
+<p>浮点数除法的结果是浮点数，而整数除法的结果是<strong>整数</strong></p>
+<p>整数除法结果的小数部分被丢弃，被称为截断</p>
+<h4 id="运算符优先级"><a href="#运算符优先级" class="headerlink" title="运算符优先级"></a>运算符优先级</h4><p>c先执行* 和&#x2F;</p>
+<p>有()的情况下 最优先执行圆括号的部分</p>
+<h2 id="5-其他运算符"><a href="#5-其他运算符" class="headerlink" title="5 其他运算符"></a>5 其他运算符</h2><h4 id="sizeof-和size-t类型"><a href="#sizeof-和size-t类型" class="headerlink" title="sizeof()和size_t类型"></a>sizeof()和size_t类型</h4><p>sizeof()以字节为单位返回运算对象的大小</p>
+<p>size_t类型用于声明sizeof()的变量，它是一个unsigned int类型。</p>
+<h4 id="typedef"><a href="#typedef" class="headerlink" title="typedef"></a>typedef</h4><p>用于定义类型名称，设置类型的别名</p>
+<p>typedef double suibian;</p>
+<p>suibian f_num&#x3D;1.32;</p>
+<h4 id="求模运算符"><a href="#求模运算符" class="headerlink" title="求模运算符"></a>求模运算符</h4><p>13%5</p>
+<p>》3</p>
+<p>求模运算只能用于整数，不能用于浮点数</p>
+<h4 id="递增运算符"><a href="#递增运算符" class="headerlink" title="递增运算符"></a>递增运算符</h4><p><code>++</code></p>
+<p>两种方式</p>
+<p>a++</p>
+<p>++a</p>
+<p>b&#x3D;a++.  &#x2F;&#x2F;先给a赋值给b再给a加一</p>
+<p>即先使用变量a再对a加一</p>
+<h4 id="递减运算符"><a href="#递减运算符" class="headerlink" title="递减运算符"></a>递减运算符</h4><p>a–先用再减</p>
+<p>–a先减再用</p>
+<h4 id="优先级"><a href="#优先级" class="headerlink" title="优先级"></a>优先级</h4><p>递增和递减运算符都有比较高的结合优先级，只有圆括号的优先级比它们高\</p>
+<h2 id="5-2-表达式和语句"><a href="#5-2-表达式和语句" class="headerlink" title="5.2 表达式和语句"></a>5.2 表达式和语句</h2><p>表达式expression由运算符和运算对象组成，也可以只有单独的运算对象</p>
+<p>每个表达式都有一个返回值</p>
+<h4 id="语句statement"><a href="#语句statement" class="headerlink" title="语句statement"></a>语句statement</h4><p>语句是c程序的基本构建块</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">; <span class="comment">//空语句</span></span><br></pre></td></tr></table></figure>
+
+<p>语句可以改变值或调用函数</p>
+<h2 id="5-3-类型转换"><a href="#5-3-类型转换" class="headerlink" title="5.3 类型转换"></a>5.3 类型转换</h2><p>long double &gt; double &gt; float &gt; unsigned long long &gt; long long &gt; unsigned long &gt; long &gt; unsigned int &gt; int </p>
+<p>可由占少字节的类型转换为更大的类型</p>
+<p>如果一个较小类型的变量被赋予更大的类型的值，则会被截断，即取模%</p>
+<p>当int a &#x3D; 32.32</p>
+<p>则a &#x3D; 32</p>
+<p>char ch &#x3D; 1107;</p>
+<p>则ch &#x3D;&gt; ‘S’</p>
+<h2 id="5-5-强制类型转换"><a href="#5-5-强制类型转换" class="headerlink" title="5.5 强制类型转换"></a>5.5 强制类型转换</h2><p>强制类型转换符</p>
+<p>mice &#x3D; 1.6 + 1.7;</p>
+<p>mice &#x3D; (int) 1.6 + (int)1.7;</p>
+<p>mice &#x3D;&gt; 2</p>
+<h2 id="5-6-带参数的函数"><a href="#5-6-带参数的函数" class="headerlink" title="5.6 带参数的函数"></a>5.6 带参数的函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">pound</span> <span class="params">(<span class="type">int</span> n)</span>;<span class="comment">//接收一个参数，函数不返回值</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> times = <span class="number">5</span>;</span><br><span class="line">    <span class="type">char</span> ch = <span class="string">&#x27;!&#x27;</span>;</span><br><span class="line">    <span class="type">float</span> f = <span class="number">6.0</span>;</span><br><span class="line"></span><br><span class="line">    pound (times);</span><br><span class="line">    pound(ch);</span><br><span class="line">    pound(f);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">pound</span><span class="params">(<span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">while</span> (n--&gt;<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;#&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果函数不接受任何参数，则声明时</p>
+<p>int pound(void)</p>
+<p>​						^应在圆括号内写入void</p>
+<p>如果函数不返回任何值</p>
+<p>则void pound</p>
+<p><code>void pound(int n)</code></p>
+<p>int n 被称为形式参数，如果传入的值并非int型，会被执行强制转换</p>
+<p>形式参数的范围只在当前函数内有效</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://example.com/2023/04/05/Chapter5%20%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%92%8C%E8%AF%AD%E5%8F%A5/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2023/04/05/Chapter5%20%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%92%8C%E8%AF%AD%E5%8F%A5/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
